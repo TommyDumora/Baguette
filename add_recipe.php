@@ -116,7 +116,7 @@ include("inc/header.php"); ?>
     <input type="text" id="images" name="images"><br>
     <?= !empty($imagesError) ? "<p>" . $imagesError . "</p>" : null ?>
 
-    <button type="submit">Envoyer la recette</button>
+    <button class="btn" type="submit">Envoyer la recette</button>
 
 </form>
 

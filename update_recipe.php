@@ -105,6 +105,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 include("inc/header.php"); ?>
 
+<h1>Modifier une recette</h1>
+
 <form method="post" action="update_recipe.php?id=<?= $recipe['id']; ?>">
 
     <label for="recipeName">Nom de la recette :</label><br>
@@ -135,7 +137,7 @@ include("inc/header.php"); ?>
     <textarea name="step" id="step"><?= $recipe['step']; ?></textarea><br>
     <?= !empty($stepError) ? "<p>" . $stepError . "</p>" : null ?>
 
-    <input type="submit" value="Enregistrer les modifications">
+    <input class="btn" type="submit" value="Enregistrer les modifications">
 
 </form>
 

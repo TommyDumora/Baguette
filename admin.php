@@ -26,6 +26,8 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
 include("inc/header.php"); ?>
 
+<h1>Connexion</h1>
+
 <form method="post" action="admin.php">
     <label for="username">Nom d'utilisateur :</label>
     <input type="text" name="username" required><br>
@@ -33,7 +35,7 @@ include("inc/header.php"); ?>
     <label for="password">Mot de passe :</label>
     <input type="password" name="password" required><br>
 
-    <input type="submit" value="Se connecter">
+    <input class="btn" type="submit" value="Se connecter">
 </form>
 
 <?php include('inc/footer.php');
