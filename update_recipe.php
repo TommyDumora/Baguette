@@ -137,7 +137,7 @@ include("inc/header.php"); ?>
     <textarea name="step" id="step"><?= $recipe['step']; ?></textarea><br>
     <?= !empty($stepError) ? "<p>" . $stepError . "</p>" : null ?>
 
-    <input class="btn" type="submit" value="Enregistrer les modifications">
+    <button class="btn" type="submit">Enregistrer les modifications</button>
 
 </form>
 

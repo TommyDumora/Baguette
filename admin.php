@@ -35,7 +35,7 @@ include("inc/header.php"); ?>
     <label for="password">Mot de passe :</label>
     <input type="password" name="password" required><br>
 
-    <input class="btn" type="submit" value="Se connecter">
+    <button class="btn" type="submit">Se connecter</button>
 </form>
 
 <?php include('inc/footer.php');
