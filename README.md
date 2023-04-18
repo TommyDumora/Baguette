@@ -2,7 +2,7 @@
 
 Ce projet est un site de recettes de cuisine avec un système CRUD (Create, Read, Update, Delete) développé en PHP version 8.2 et utilisant une base de données MySQL.
 
-Le site présente toutes les recettes stockées en base de données sur la page d'accueil. Les utilisateurs peuvent se connecter sur une page dédiée `admin.php`. L'utilisateur connecté avec le rôle "admin" a également accès à un menu CRUD pour chaque recette.
+Le site présente toutes les recettes stockées en base de données sur la page d'accueil. Les utilisateurs peuvent se connecter sur une page dédiée `/admin.php`. L'utilisateur connecté avec le rôle "admin" a également accès à un menu CRUD pour chaque recette.
 
 ## BDD
 
@@ -45,6 +45,8 @@ git clone git@github.com:TommyDumora/Baguette.git
 4. Modifiez le fichier `db_connect.php` avec les informations de votre base de données.
 
 5. Lancez votre serveur web.
+
+6. Les imformations de connexion pour le compte admin et tester le CRUD sont : `admin` et `admin`.
 
 ## Fonctionnalités
 
