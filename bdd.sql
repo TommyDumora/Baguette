@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 18 avr. 2023 à 14:03
+-- Généré le : mar. 18 avr. 2023 à 16:01
 -- Version du serveur : 10.4.27-MariaDB
 -- Version de PHP : 8.2.0
 
@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`, `role`) VALUES
-(1, 'admin', 'admin', 'admin');
+(1, 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'admin');
 
 -- --------------------------------------------------------
 

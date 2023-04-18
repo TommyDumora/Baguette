@@ -58,9 +58,9 @@ Les fonctionnalités du site comprennent:
 
 Ce projet est une démonstration de l'utilisation de PHP et MySQL pour développer un site CRUD de recettes de cuisine. Il n'a pas été développé avec des considérations de sécurité avancées et doit être utilisé à des fins d'apprentissage et de démonstration uniquement.
 
-## Futur fonctionnalités
+## Futures fonctionnalités
 
-- [ ] Mettre en place le hash des mots de passe
+- [x] Mettre en place le hash des mots de passe
 - [ ] Rajouter une page incription
 - [ ] Ajout d'un système de commentaire sous les recettes
 - [ ] Ajout d'un CRUD sur les commentaires
